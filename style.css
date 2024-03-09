@@ -1,7 +1,7 @@
 html {
   height: 100%;
   width: 100%;
-  margin:100px;
+  margin: 100 px;
 }
 
 body {
@@ -19,7 +19,7 @@ body {
   width: 100px;
   color: #11752d;
   background-color: darkseagreen;
-  text-decoration: none;
+  text-decoration: none;  
 }
 
 h2 {
@@ -37,5 +37,20 @@ h2 {
 input {
   margin-bottom: 10px;
 }
+
+introduction {
+  margin-bottom: 10px; 
+}
+
+h4 {
+  background-color: #cfe3d5;
+  color: #419157;
+  font-family:'Gill Sans', 'Gill Sans', 'Gill Sans', sans-serif;
+  font-size: small;
+}
+
+
+
+
 
 
