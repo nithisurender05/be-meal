@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Account Creation</title>
+ <script>
+   function createAccount(){
+     var username=prompt("Create Username:");
+     var password=prompt("Create Password");
+     var password2=prompt("Confirm Password");
+     if(password==password2){
+       if(username &&password){
+          localStorage.setItem("username", username);
+          localStorage.setItem("password", password);
+         alert("Account Created!");
+        
+       }
+     }
+
+   }
+   function login(){
+     var choice;
+     var username=prompt("Enter Username:");
+     var password=prompt("Enter Password");
+     if(username==localStorage.getItem("username") && password==localStorage.getItem("password")){
+       alert("Login Successful!");
+     }
+     else{
+       choice=confirm("Login Failed! Would you like to create an account?");
+       if(choice){
+         createAccount();
+       }
+       else{
+         alert("Login Failed!");
+       }
+     }
+   }
+ </script>
+</head>
+  <body>
+   Login to access your Health Journay!
+    <script src="script.js"></script>
+  </body>
+    <a href="Page2.html">
+      <button>Login</button>
+      <!--should prompt a screen to login  -->
+    </a>
+      <button onclick="createAccount()">Create an account</button>
+       <!--take user input of username and password and store in local storage  -->
+    </a>
+  </html>
