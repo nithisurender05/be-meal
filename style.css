@@ -29,6 +29,11 @@ h2 {
   font-size: large;
 }
 
-questions {
-  margin: 30px;
+.questions {
+  margin-bottom: 30px;
+  display: block;
+}
+
+input {
+  margin-bottom: 10px;
 }
