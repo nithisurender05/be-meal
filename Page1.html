@@ -27,7 +27,7 @@
      var password=prompt("Enter Password");
      if(username==localStorage.getItem("username") && password==localStorage.getItem("password")){
        alert("Login Successful!");
-       window.location.href="Page2.html";
+       window.location.href="Page3.html";
      }
      else{
        choice=confirm("Login Failed! Would you like to create an account?");
@@ -44,11 +44,14 @@
 </head>
   <body>
    <h2>Login to access your Health Journey!</h2>
-    <script src="script.js"></script>
-    <a href="Page2.html">
+    <a href="Page3.html">
+      <br>
       <span class = "button" onclick="login()">Login</span>
       <!--should prompt a screen to login  -->
     </a>
+    <br>
+    <br>
+    <br>
       <span class = "button" onclick="createAccount()">Create an account</span>
        <!--take user input of username and password and store in local storage  -->
  
