@@ -52,10 +52,18 @@ h4 {
   font-size: medium;
 }
 
-input {
-  margin-bottom: 10px;
+
+#breakfast {
+  text-align: left;
 }
 
+#lunch {
+  text-align: left;
+}
+
+#dinner {
+  text-align: left;
+}
 
 
 
