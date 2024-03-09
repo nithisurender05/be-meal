@@ -22,4 +22,11 @@ body {
   text-decoration: none;
 }
 
+h2 {
+  background-color: #cfe3d5;
+  color: #11752d;
+  font-family:'Gill Sans MT', 'Gill Sans', 'Gill Sans', 'Gill Sans', sans-serif;
+  font-size: large;
+}
+
 
