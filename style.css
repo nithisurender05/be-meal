@@ -55,16 +55,24 @@ h4 {
 
 #breakfast {
   text-align: left;
+  display:inline-block;
+  width: 150px;
 }
 
 #lunch {
   text-align: left;
+  display:inline-block;
+  width:150px;
 }
 
 #dinner {
   text-align: left;
+  display:inline-block;
+  width:150px
 }
 
-
+a {
+  text-decoration: none;
+}
 
 
